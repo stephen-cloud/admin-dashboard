@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/builds",
+            "lambdaFunction": "materialdashboardrea4319d359",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "apie41e780d",
+    "apiName": "apie41e780d",
+    "functionArns": [
+        {
+            "lambdaFunction": "materialdashboardrea4319d359"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-materialdashboardrea-dev-205313-authRole",
+        "unAuthRoleName": "amplify-materialdashboardrea-dev-205313-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "materialdashboardrea4319d359",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
