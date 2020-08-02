@@ -1,6 +1,12 @@
 {
+	"hosting": {
+		"amplifyhosting": {
+			"service": "amplifyhosting",
+			"type": "cicd"
+		}
+	},
 	"function": {
-		"materialdashboardrea4319d359": {
+		"materialdashboardreaccdef511": {
 			"build": true,
 			"providerPlugin": "awscloudformation",
 			"service": "Lambda",
@@ -8,13 +14,13 @@
 		}
 	},
 	"api": {
-		"apie41e780d": {
+		"apicf989b45": {
 			"service": "API Gateway",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [
 				{
 					"category": "function",
-					"resourceName": "materialdashboardrea4319d359",
+					"resourceName": "materialdashboardreaccdef511",
 					"attributes": [
 						"Name",
 						"Arn"

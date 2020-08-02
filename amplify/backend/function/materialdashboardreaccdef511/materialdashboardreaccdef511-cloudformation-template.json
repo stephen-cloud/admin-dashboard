@@ -33,12 +33,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"materialdashboardrea4319d359",
+						"materialdashboardreaccdef511",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"materialdashboardrea4319d359",
+									"materialdashboardreaccdef511",
 									"-",
 									{
 										"Ref": "env"
@@ -68,8 +68,8 @@
 				"Layers": [],
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-materialdashboardrea-dev-205313-deployment",
-					"S3Key": "amplify-builds/materialdashboardrea4319d359-78443576667a316a5068-build.zip"
+					"S3Bucket": "amplify-materialdashboardrea-dev-221048-deployment",
+					"S3Key": "amplify-builds/materialdashboardreaccdef511-536b6d3267505a32424a-build.zip"
 				}
 			}
 		},
@@ -79,12 +79,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"materialdashboardreaLambdaRole9d0b52ff",
+						"materialdashboardreaLambdaRole1cc3c464",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"materialdashboardreaLambdaRole9d0b52ff",
+									"materialdashboardreaLambdaRole1cc3c464",
 									"-",
 									{
 										"Ref": "env"

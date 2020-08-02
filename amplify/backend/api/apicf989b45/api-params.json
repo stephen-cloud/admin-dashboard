@@ -2,29 +2,29 @@
     "paths": [
         {
             "name": "/builds",
-            "lambdaFunction": "materialdashboardrea4319d359",
+            "lambdaFunction": "materialdashboardreaccdef511",
             "privacy": {
                 "open": true
             }
         }
     ],
-    "resourceName": "apie41e780d",
-    "apiName": "apie41e780d",
+    "resourceName": "apicf989b45",
+    "apiName": "apicf989b45",
     "functionArns": [
         {
-            "lambdaFunction": "materialdashboardrea4319d359"
+            "lambdaFunction": "materialdashboardreaccdef511"
         }
     ],
     "privacy": {
         "auth": 0,
         "unauth": 0,
-        "authRoleName": "amplify-materialdashboardrea-dev-205313-authRole",
-        "unAuthRoleName": "amplify-materialdashboardrea-dev-205313-unauthRole"
+        "authRoleName": "amplify-materialdashboardrea-dev-221048-authRole",
+        "unAuthRoleName": "amplify-materialdashboardrea-dev-221048-unauthRole"
     },
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "materialdashboardrea4319d359",
+            "resourceName": "materialdashboardreaccdef511",
             "attributes": [
                 "Name",
                 "Arn"

@@ -14,15 +14,15 @@
         },
     
     
-          "functionmaterialdashboardrea4319d359Name": {
+          "functionmaterialdashboardreaccdef511Name": {
             "Type": "String",
-            "Default": "functionmaterialdashboardrea4319d359Name"
+            "Default": "functionmaterialdashboardreaccdef511Name"
           },
         
           
-          "functionmaterialdashboardrea4319d359Arn": {
+          "functionmaterialdashboardreaccdef511Arn": {
             "Type": "String",
-            "Default": "functionmaterialdashboardrea4319d359Arn"
+            "Default": "functionmaterialdashboardreaccdef511Arn"
           }
         
           
@@ -45,16 +45,16 @@
         
         
         
-      "apie41e780d": {
+      "apicf989b45": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "apie41e780d",
+          "Name": "apicf989b45",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "apie41e780d"
+              "title": "apicf989b45"
             },
             "host": {
                 "Fn::Join": [
@@ -176,7 +176,7 @@
                             
                             {
                                 
-                                "Ref": "functionmaterialdashboardrea4319d359Arn"
+                                "Ref": "functionmaterialdashboardreaccdef511Arn"
                             },
                             
                             "/invocations"
@@ -275,7 +275,7 @@
                           
                           {
                             
-                            "Ref": "functionmaterialdashboardrea4319d359Arn"
+                            "Ref": "functionmaterialdashboardreaccdef511Arn"
                           },
                           
                           "/invocations"
@@ -332,12 +332,12 @@
                   
         
         
-        "functionmaterialdashboardrea4319d359Permissionapie41e780d": {
+        "functionmaterialdashboardreaccdef511Permissionapicf989b45": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functionmaterialdashboardrea4319d359Name"
+                        "Ref":  "functionmaterialdashboardreaccdef511Name"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "apie41e780d"
+                                "Ref": "apicf989b45"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWapie41e780d": {
+      "DeploymentAPIGWapicf989b45": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "apie41e780d"
+            "Ref": "apicf989b45"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apie41e780d"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apicf989b45"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "apie41e780d"
+          "Value": "apicf989b45"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "apie41e780d"}
+          "Value": {"Ref": "apicf989b45"}
         }
     }
   }

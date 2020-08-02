@@ -1,15 +1,23 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-materialdashboardrea-dev-205313-authRole",
-            "UnauthRoleArn": "arn:aws:iam::607477397669:role/amplify-materialdashboardrea-dev-205313-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::607477397669:role/amplify-materialdashboardrea-dev-205313-authRole",
+            "AuthRoleName": "amplify-materialdashboardrea-dev-221048-authRole",
+            "UnauthRoleArn": "arn:aws:iam::607477397669:role/amplify-materialdashboardrea-dev-221048-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::607477397669:role/amplify-materialdashboardrea-dev-221048-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-materialdashboardrea-dev-205313-deployment",
-            "UnauthRoleName": "amplify-materialdashboardrea-dev-205313-unauthRole",
-            "StackName": "amplify-materialdashboardrea-dev-205313",
-            "StackId": "arn:aws:cloudformation:us-east-1:607477397669:stack/amplify-materialdashboardrea-dev-205313/37c8a550-d2c8-11ea-a683-0abf94ca9997",
-            "AmplifyAppId": "d35ahz2xxeanlq"
+            "DeploymentBucketName": "amplify-materialdashboardrea-dev-221048-deployment",
+            "UnauthRoleName": "amplify-materialdashboardrea-dev-221048-unauthRole",
+            "StackName": "amplify-materialdashboardrea-dev-221048",
+            "StackId": "arn:aws:cloudformation:us-east-1:607477397669:stack/amplify-materialdashboardrea-dev-221048/0df27f70-d2d3-11ea-b8a6-0a200f00c284",
+            "AmplifyAppId": "d367whvljximn4"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d367whvljximn4",
+                    "type": "cicd"
+                }
+            }
         }
     }
 }

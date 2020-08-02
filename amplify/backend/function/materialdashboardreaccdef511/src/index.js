@@ -1,4 +1,6 @@
-
+/* Amplify Params - DO NOT EDIT
+	
+Amplify Params - DO NOT EDIT */
 
 exports.handler = async (event) => {
     // TODO implement
